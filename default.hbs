@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{{meta_title}}</title>
+        <meta name="description" content="{{meta_description}}" />
+        <link href="{{asset 'font-awesome-4.2.0/css/font-awesome.min.css'}}" rel="stylesheet">
+        <link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/cyanotype" rel="stylesheet" type="text/css"/> 
+        <link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/benveno" rel="stylesheet" type="text/css"/> 
+        <link href="{{asset 'css/style_ori.css'}}" rel="stylesheet" type="text/css">
+        <link href="{{asset 'favicon.ico'}}" rel="shortcut icon">
+        {{ghost_head}}
+    </head>
+    <body itemscope itemtype="http://schema.org/Blog" class="{{body_class}}">
+        {{{body}}}
+        <footer>           
+            {{> footer}}
+        </footer>
+        {{ghost_foot}}
+        <script type="text/javascript" src="{{asset 'js/highlight.min.js'}}"></script>
+        <script type="text/javascript" src="{{asset 'js/jquery.fitvids.js'}}"></script>
+        <script type="text/javascript" src="{{asset 'js/scripts_ori.js'}}"></script>
+    </body>
+</html>
